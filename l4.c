@@ -1,10 +1,5 @@
+#include <stdio.h>
 
-#include <cstdio>
-#include <stdlib.h>
-#include <math.h>
- 
-using namespace std;
- 
 int main()
 {
     int x,tmp;
@@ -18,6 +13,5 @@ int main()
     printf("$5 bills: %d\n",tmp/5);
     tmp=tmp%5;
     printf("$1 bills: %d\n",tmp);
-    system("PAUSE");
     return 0;
 }
